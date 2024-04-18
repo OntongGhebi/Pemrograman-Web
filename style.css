@@ -76,7 +76,7 @@ body{
 }
 
 .poster{
-    margin-top: 59px;
+    margin-top: 70px;
     z-index: 8888;
 }
 
@@ -101,7 +101,7 @@ body{
     padding-right: 0;
 }
 .wisata1{
-    display: flex;
+    display: flexbox;
 }
 
 .img1{
@@ -109,13 +109,14 @@ body{
 }
 
 .gambar1{
-    width: 70%;
+    width: 100%;
     margin: 1rem 1rem;
 }
 
 .desc1{
     color: black;
     margin: 0 2rem 0 5rem;
+    text-align: ;
 }
 
 /* news */
@@ -169,3 +170,23 @@ body{
     text-align:left;    
 }
 
+@media screen and (max-width: 1200px) {
+    main  {
+      align-self: center;
+    }
+    main {
+      flex-flow: column nowrap;
+    }
+    .bannerslide {
+        align-self: stretch;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    nav ul {
+      justify-content: center;
+    }
+    main  {
+      align-self: stretch;
+    }
+  }
