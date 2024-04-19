@@ -55,11 +55,34 @@ body{
     color: #fff;
 }
 
+
+.navibar .navimenu .menu a, .menu-g a{
+    color: #000;
+}
+
+.navibar .navimenu .menu a::after, .menu-g a::after{
+    content: '';
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid #b33232;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.navibar .navimenu .menu a:hover, .menu-g a:hover{
+    color: #c13d3d;
+}
+
+.navibar .navimenu .menu a:hover::after, .menu-g a:hover::after {
+    transform: scaleX(0.5);
+}
+
 .menu, .menu-g{
     display: inline-block;
 }
 
 .menu a, .menu-g a{
+    color: black 0.8;
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
@@ -101,7 +124,7 @@ body{
     padding-right: 0;
 }
 .wisata1{
-    display: flexbox;
+    display:flex;
 }
 
 .img1{
@@ -116,14 +139,13 @@ body{
 .desc1{
     color: black;
     margin: 0 2rem 0 5rem;
-    text-align: ;
 }
 
 /* news */
 
 .content2{
     margin-top: 5rem;
-    display: flex;
+    display:inline;
     padding: 2rem 10% 1.4rem;
     justify-content: space-between;
 }
