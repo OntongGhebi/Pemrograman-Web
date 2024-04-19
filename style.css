@@ -124,6 +124,10 @@ body{
     padding-left: 5rem;
     padding-right: 0;
 }
+
+.wisata1 p {
+    font-size: 1.3rem;
+}
 .wisata1{
     display:flexbox;
 }
@@ -133,8 +137,8 @@ body{
 }
 
 .gambar1{
-    width: 50%;
-    margin: 0rem 20rem 1rem;
+    width: 100%;
+    margin: 1rem 1rem;
 }
 
 .desc1{
@@ -159,7 +163,7 @@ body{
 
 .news{
     padding: 1rem 5% 1rem;
-    margin-left: 0rem;
+    margin-left: 14rem;
     padding-top: 0;
     padding-bottom: 0.8rem;
     border-bottom: 2px solid #000;
@@ -167,7 +171,7 @@ body{
 
 .news2{
     padding: 1rem 5% 1rem;
-    margin-left: 0rem;
+    margin-left: 14rem;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
     border-bottom: 2px solid #000;
@@ -197,7 +201,11 @@ body{
 
 .narasi{
     padding-top: 1rem;
-    text-align:center;    
+    text-align:left;    
+}
+
+iframe {
+    margin: 2rem 30%;
 }
 
 footer {
