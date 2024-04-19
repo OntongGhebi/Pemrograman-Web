@@ -71,6 +71,7 @@ body{
 
 .navibar .navimenu .menu a:hover, .menu-g a:hover{
     color: #c13d3d;
+    transition: 0.2s;
 }
 
 .navibar .navimenu .menu a:hover::after, .menu-g a:hover::after {
@@ -139,20 +140,20 @@ body{
 .desc1{
     color: black;
     margin: 0 2rem 0 5rem;
+    text-align: justify;
 }
 
 /* news */
 
 .content2{
-    margin-top: 5rem;
-    display:inline;
     padding: 2rem 10% 1.4rem;
-    justify-content: space-between;
+    margin-top: 5rem;
+
 }
 
 .content2 .headernews h2{
     border-bottom:5px solid #000;
-    padding-bottom: 2rem;
+    padding: 2rem 10% 2rem;
 }
 
 .news{
@@ -188,27 +189,11 @@ body{
     margin-left: 0;
 }
 
+.newsdesc a {
+    color: #000;
+    text-decoration: none;
+}
+
 .narasi{
     text-align:left;    
 }
-
-@media screen and (max-width: 1200px) {
-    main  {
-      align-self: center;
-    }
-    main {
-      flex-flow: column nowrap;
-    }
-    .bannerslide {
-        align-self: stretch;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    nav ul {
-      justify-content: center;
-    }
-    main  {
-      align-self: stretch;
-    }
-  }
